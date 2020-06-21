@@ -1,0 +1,55 @@
+/* background */
+body {
+  background-color: black;
+  font-family: "Times New Roman";
+  color: white;
+}
+
+/* naviagation bar */ 
+h2 {
+  text-align: center; 
+  padding-bottom: -5px;
+}
+
+/* line */
+hr {
+  color: white;
+}
+
+/* spacing */
+* {
+  box-sizing: border-box;
+}
+
+/* naviagation bar */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* destination text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
