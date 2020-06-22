@@ -1,4 +1,4 @@
-/* background */
+ /* background */
 body {
   background-color: black;
   font-family: "Times New Roman";
@@ -11,33 +11,22 @@ h3 {
   padding-bottom: -5px;
 }
 
-/* unvisited link */
-a:link {
+/* unvisited link in naviagation bar*/
+a.first:link {
   color: white;
 }
 
-/* visited link */
-a:visited {
+/* visited link in navigation bar */
+a.first:visited {
   color: white;
 }
 
-/* mouse over link */
-a:hover {
+/* mouse over link in navigation bar*/
+a.first:hover {
   color: #ff69b4;
   font-size: 20px;
 }
 
-/* line */
-hr {
-  color: white;
-}
-
-/* spacing */
-* {
-  box-sizing: border-box;
-}
-
-/* naviagation bar */
 .column {
   float: left;
   width: 25%;
@@ -54,6 +43,16 @@ hr {
   clear: both;
 }
 
+/* line */
+hr {
+  color: white;
+}
+
+/* spacing */
+* {
+  box-sizing: border-box;
+}
+
 /* destination text */
 .container {
   position: relative;
@@ -68,4 +67,20 @@ hr {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* unvisited link for destination text*/
+a.second:link {
+  color: white;
+}
+
+/* visited link for destination text*/
+a.second:visited {
+  color: white;
+}
+
+/* mouse over for destination text*/
+a.second:hover {
+  color: white;
+  font-size: 45px;
 }
